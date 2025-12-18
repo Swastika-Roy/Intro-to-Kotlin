@@ -37,9 +37,15 @@ fun addition(a : Int,b: Int,c : Int):Int{
 
 fun multi(a : Int,b : Int) = a*b  //single line function
 
+<<<<<<< HEAD
 fun subtraction(a : Int, b : Int):Unit{   //unit mean nothing it returns
                 println("Subtraction of $a and $b is ${a.minus(b)}");
                }
+=======
+fun subtraction(a : Int, b : Int):Unit{   //unit mean nothing function is returning
+println("Subtraction of $a and $b is ${a.minus(b)}");
+}
+>>>>>>> 9ba533dcd4357e25f0b5a14f031dc34da94bfc09
 
 
 
